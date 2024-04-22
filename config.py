@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 360))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001786420744))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5152037285))
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/niketrawat/kitkatmusic2",
+    "https://github.com/AnonymousX1025/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
